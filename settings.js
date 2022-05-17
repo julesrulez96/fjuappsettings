@@ -327,18 +327,18 @@ module.exports = {
              */
         page: {
             title: "Fjubot Editor",
-            favicon: "/data/design/Logo1.svg",
-            css: "/data/design/custom.css",
+            favicon: "/tmp/design/Logo1.svg",
+            css: "/tmp/design/custom.css",
         },
         header: {
                 title: "Fjubot Editor",
-                image: "/data/design/Logo1.svg",
+                image: "/tmp/design/Logo1.svg",
             url: "http://127.0.0.1:1880" // optional url to make the header text/image a link to this url
             },
         deployButton: {
                 type:"simple",
                 label:"Deploy",
-                icon: "/data/design/play-button.svg" // or null to remove image
+                icon: "/tmp/design/play-button.svg" // or null to remove image
             },
             menu: { // Hide unwanted menu items by id. see packages/node_modules/@node-red/editor-client/src/js/red.js:loadEditor for complete list
                 "menu-item-import-library": true,
@@ -360,7 +360,7 @@ module.exports = {
 
                 "menu-item-help": {
                         label: "Back to Login",
-                        url: "http://127.0.0.1:4200"
+                        url: "https://dashboard.app.fjubots.io"
                 }
            },
             theme: "midnight-red-scroll",
