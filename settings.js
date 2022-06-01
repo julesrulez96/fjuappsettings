@@ -86,7 +86,7 @@ module.exports = {
             type: "credentials",
             users: [{
                 username: process.env.USERNAME,
-                password: process.env.USERPASSWORT,
+                password: process.env.USERPASSWORD,
                 permissions: "*"
             }]
         },    
